@@ -1,0 +1,51 @@
+{
+  "name": "ArtistsLiberationFront",
+  "version": "1.0.0",
+  "description": "ERC-721 Non-Fungible Token for digital art",
+  "homepage": "https://artistunleashed.app/",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/johnnydollar/johnnydapp.git"
+  },
+  "author": "chris@yutopya.io",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.0.35",
+    "axios": "^0.18.0",
+    "bootstrap": "^3.3.7",
+    "fs-extra": "^5.0.0",
+    "ipfs-api": "^18.1.1",
+    "keccak": "^1.4.0",
+    "openzeppelin-solidity": "2.0.0",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0",
+    "react-dropzone": "^4.2.8",
+    "react-scripts": "^2.0.0",
+    "react-tabs-redux": "^4.0.0",
+    "sha256": "^0.2.0",
+    "sha3": "1.2.0",
+    "solc": "^0.6.2",
+    "truffle": "^5.1.28",
+    "truffle-hdwallet-provider": "^0.0.3",
+    "web3": "^1.0.0-beta.37",
+    "zeppelin-solidity": "^1.8.0"
+  },
+  "engines": {
+    "node": "8.11.x",
+    "npm": "5.6.x"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
